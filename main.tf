@@ -83,8 +83,8 @@ resource "azurerm_cognitive_deployment" "this" {
     name    = each.value.model_name
     version = each.value.model_version
   }
-  scale {
-    type     = each.value.scale_type
+  sku {
+    name     = each.value.scale_type
     capacity = try(each.value.capacity, 1)
   }
 }

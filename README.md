@@ -1,8 +1,6 @@
-# [DEPRECATED] terraform-azurerm-openai
+# terraform-azurerm-openai (maintained fork)
 
-> **NOTE:** This terraform-azurerm-openai module is now deprecated. The module will no longer receive updates or support. Users are encouraged to transition to the [avm-res-cognitiveservices-account](https://registry.terraform.io/modules/Azure/avm-res-cognitiveservices-account/azurerm/latest) module for future deployments.
-
-Azure OpenAI Terraform Module and Samples.
+Azure OpenAI Terraform Module and Samples. Fork of the currently unmaintained [Microsoft module](https://github.com/Azure/terraform-azurerm-openai). This module contains modifications allowing it to work with `azurerm` v4.x, making it a drop in replacement. If you are able to, it is recommended to move to the [avm-res-cognitiveservices-account](https://registry.terraform.io/modules/Azure/avm-res-cognitiveservices-account/azurerm/latest), however if you want a quick replacement that will enable you to update to the latest `azurerm`, you are free to use this.
 
 
 <!-- BEGIN_TF_DOCS -->
